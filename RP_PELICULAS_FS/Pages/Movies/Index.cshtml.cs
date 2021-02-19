@@ -42,5 +42,6 @@ namespace RP_PELICULAS_FS.Pages.Movies
             //Movie = await _context.Movie.ToListAsync();
             Movie = await peliculas.ToListAsync();     //Para mostrar solo la variable pelicula que contiene la búsqueda
         }
+
     }
 }
