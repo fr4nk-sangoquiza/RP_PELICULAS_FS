@@ -9,7 +9,7 @@
 <h1>Índice de Películas</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Crear nuevo</a>
 </p>
 <table class="table">
     <thead>
@@ -51,9 +51,9 @@
                 @Html.DisplayFor(modelItem => item.descripcion)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.id">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.id">Editar</a> |
+                <a asp-page="./Details" asp-route-id="@item.id">Detalles</a> |
+                <a asp-page="./Delete" asp-route-id="@item.id">Borrar</a>
             </td>
         </tr>
 }
