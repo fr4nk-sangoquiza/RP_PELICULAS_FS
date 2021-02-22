@@ -1,0 +1,169 @@
+﻿@page
+@model RP_PELICULAS_FS.Pages.GaleriaModel
+@{ ViewData["Title"] = "GALERIA";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+
+<link rel="stylesheet" href="~/css/MiEstilo.css" />
+            <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'>
+}
+
+
+<h1>&nbsp; @ViewData["Title"]</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">PELICULAS</h1>
+        </div>
+
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">Todo</button>
+            <button class="btn btn-default filter-button" data-filter="drama">Drama</button>
+            <button class="btn btn-default filter-button" data-filter="fantastico">Fantástico</button>
+            <button class="btn btn-default filter-button" data-filter="romance">Romance</button>
+            <button class="btn btn-default filter-button" data-filter="terror">Terror</button>
+        </div>
+
+
+        <p>
+            <br /> <br />
+            <font color="white">
+                xxxxxxxxxx
+                xxxxxxxxxx
+                xxxxxxxxxx
+                xxxxxxxxxx
+                xxx
+            </font>
+        </p>
+
+
+        <!-- DRAMA -->
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter drama">
+            <a href="">
+                <img alt="PEPE" width="157" height="233" src=https://pics.filmaffinity.com/nuevo_orden-910124616-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Nuevo orden</font></div><br />
+        </div>
+
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter drama">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/abla_fahita_drama_queen_tv_series-550533851-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Abla Fahita: Drama Queen</font></div><br />
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter drama">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/drama_tv_series-488405600-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Drama (Serie de TV)</font></div><br />
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter drama">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/drama_girl-948068011-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Drama Girl</font></div><br />
+        </div>
+
+
+
+        <!-- ROMANCE -->
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter romance">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/deux-614550583-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Deux Romance</font></div><br />
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter romance">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/true_romance-729763502-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Amor a quemarropa</font></div><br />
+        </div>
+
+
+
+        <!-- FANTÁSTICO -->
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter fantastico">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/avengers_infinity_war-181539353-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Vengadores: Infinity War</font></div><br />
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter fantastico">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/avengers_endgame-135478227-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Vengadores: Endgame</font></div><br />
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter fantastico">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/the_avengers-439499921-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Los Vengadores</font></div><br />
+        </div>
+
+
+
+        <!-- TERROR -->
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter terror">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/insidious-733811348-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Insidious</font></div><br />
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter terror">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/grindhouse_planet_terror-652788359-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Planet terror</font></div><br />
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter terror">
+            <a href="">
+                <img width="157" height="233" src=https://pics.filmaffinity.com/opera-571299046-large.jpg class="img-responsive">
+            </a>
+            <div class="mtitle"><font color="blue">Terror en la ópera</font></div><br />
+        </div>
+
+    </div>
+</div>
+
+
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+<script>
+    $(document).ready(function () {
+
+        $(".filter-button").click(function () {
+            var value = $(this).attr('data-filter');
+
+            if (value == "all") {
+
+                $('.filter').show('1000');
+            }
+            else {
+
+                $(".filter").not('.' + value).hide('3000');
+                $('.filter').filter('.' + value).show('3000');
+
+            }
+        });
+
+        if ($(".filter-button").removeClass("active")) {
+            $(this).removeClass("active");
+        }
+        $(this).addClass("active");
+
+    });</script>
